@@ -34,6 +34,5 @@ class MainTabBarController: UITabBarController {
         navController.tabBarItem = item
         return navController
     }
-
 }
 
