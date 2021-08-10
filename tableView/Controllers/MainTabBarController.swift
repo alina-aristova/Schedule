@@ -27,7 +27,6 @@ class MainTabBarController: UITabBarController {
         
         //создаем таб бар и с помощью withAlignmentRectInsets выравниваем
         let item = UITabBarItem(title: itemName, image: UIImage(systemName: itemImage)?.withAlignmentRectInsets(.init(top: 10, left: 0, bottom: 0, right: 0)), tag: 0)
-        
         //выравниваем надпись
         item.titlePositionAdjustment = .init(horizontal: 0, vertical: 10)
     
