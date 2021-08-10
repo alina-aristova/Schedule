@@ -30,6 +30,7 @@ class MainTabBarController: UITabBarController {
         
         //выравниваем надпись
         item.titlePositionAdjustment = .init(horizontal: 0, vertical: 10)
+    
         let navController = UINavigationController(rootViewController: vc)
         navController.tabBarItem = item
         return navController
